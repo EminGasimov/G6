@@ -1,2 +1,2 @@
 # GDSD 2019 G6
-Project Repository for GDSD 2019 Group G6
+M0 Ends on 07/11/2019 for GDSD 2019 Group G6
