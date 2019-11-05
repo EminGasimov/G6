@@ -1,8 +1,8 @@
-# GDSD 2019 G6
+# Milestone M0 of GDSD 2019 G6
 M0 Ends on 07/11/2019 for GDSD 2019 Group G6
 
-## Info on server setup command used
-> We can use the following linux commands to setup a similar environment in local ubuntu 18.04 virtual machines to replicate server configuration)
+## Server setup command used
+> Following linux commands can be used to setup a similar environment in local ubuntu 18.04 virtual machines to replicate server configuration
 
 ```
 #!/usr/bin/env bash
