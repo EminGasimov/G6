@@ -1,8 +1,8 @@
 # CREDENTIALS INFO for GDSD 2019 Group G6 Project
 
-URL: http://ec2-3-81-108-219.compute-1.amazonaws.com/G6/milestones/m0/
+# URL: http://ec2-3-81-108-219.compute-1.amazonaws.com/G6/milestones/m0/
 
-# server credential
+## server credential
 
 To connect to Amazon AWS EC2 instance from linux shell we need to have a credential file with .pem extension which is the Private key file used to connect to the remote AWS cloud server via ssh on port 22.
 
