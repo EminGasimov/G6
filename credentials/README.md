@@ -1,6 +1,7 @@
 # CREDENTIALS INFO for GDSD 2019 Group G6 Project
 
-# URL: http://ec2-3-81-108-219.compute-1.amazonaws.com/G6/milestones/m0/
+# URL
+http://ec2-3-81-108-219.compute-1.amazonaws.com/G6/milestones/m0/
 
 ## server credential
 
