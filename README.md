@@ -2,7 +2,7 @@
 Project Repository for GDSD 2019 Group G6
 
 # Team Members
-* Emin:Gasimov (emingasimov994@gmail.com): 1155853
+* Emin Gasimov (emingasimov994@gmail.com): 1155853
 * Ammar Irshad (ranaammar84@gmail.com): 1288005
 * Haseeb Safdar (Haseebsafdar321@gmail.com): 1297184
 * Muhammad Naeem Afzal (naeemdon94@gmail.com):1248326
