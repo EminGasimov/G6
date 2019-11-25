@@ -5,23 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
+    <title>Home Page</title>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
     <link href="static/css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
     <link href="static/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Dummy template</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,18 +42,14 @@
     </div>
 </nav>
 
-<!-- Page Content -->
 <div class="container">
 
     <div class="row">
 
-        <!-- Post Content Column -->
         <div class="col-lg-8">
 
-            <!-- Title -->
             <h1 class="mt-4">Post Title</h1>
 
-            <!-- Author -->
             <p class="lead">
                 by
                 <a href="#">Start Bootstrap</a>
@@ -65,17 +57,14 @@
 
             <hr>
 
-            <!-- Date/Time -->
             <p>Posted on January 1, 2019 at 12:00 PM</p>
 
             <hr>
 
-            <!-- Preview Image -->
             <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
 
             <hr>
 
-            <!-- Post Content -->
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
@@ -145,10 +134,8 @@
 
         </div>
 
-        <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
 
-            <!-- Search Widget -->
             <div class="card my-4">
                 <h5 class="card-header">Search</h5>
                 <div class="card-body">
@@ -161,7 +148,6 @@
                 </div>
             </div>
 
-            <!-- Categories Widget -->
             <div class="card my-4">
                 <h5 class="card-header">Categories</h5>
                 <div class="card-body">
@@ -196,7 +182,6 @@
                 </div>
             </div>
 
-            <!-- Side Widget -->
             <div class="card my-4">
                 <h5 class="card-header">Side Widget</h5>
                 <div class="card-body">
@@ -207,28 +192,20 @@
         </div>
 
     </div>
-    <!-- /.row -->
 
 </div>
-<!-- /.container -->
 
-<!-- Footer -->
+
 <footer class="py-5 bg-dark">
     <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
     </div>
-    <!-- /.container -->
 </footer>
 
 
-<!-- SCRIPTS -->
-<!-- JQuery -->
 <script type="text/javascript" src="static/js/jquery-3.4.1.min.js"></script>
-<!-- Bootstrap tooltips -->
 <script type="text/javascript" src="static/js/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
 <script type="text/javascript" src="static/js/mdb.min.js"></script>
 </body>
 
