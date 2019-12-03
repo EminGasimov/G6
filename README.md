@@ -3,7 +3,6 @@ Project Repository for GDSD 2019 Group G6
 
 # Team Members
 * Emin Gasimov (emingasimov994@gmail.com): 1155853
-* Haseeb Safdar (Haseebsafdar321@gmail.com): 1297184
 * Muhammad Naeem Afzal (naeemdon94@gmail.com):1248326
 * Md Firoj Kabir (firoj.kabir65@gmail.com): 1300934
 * Syeda Tasneem Rumy (syedatasneemrumy@gmail.com): 1189706
@@ -18,5 +17,3 @@ Project Repository for GDSD 2019 Group G6
     * Web Framework: Laravel 6
     * IDE:  PHPStorm JetBrains
     * Web Analytics: Google Analytics
-
-
