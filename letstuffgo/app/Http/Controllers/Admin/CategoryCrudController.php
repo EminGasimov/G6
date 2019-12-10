@@ -31,6 +31,8 @@ class CategoryCrudController extends CrudController
         // TODO: remove setFromDb() and manually define Columns, maybe Filters
         /*$this->crud->setFromDb();*/
         $this->crud->addColumn(['name' => 'name', 'type' => 'text', 'label' => 'Name']);
+        $this->crud->addColumn(['name' => 'created_at', 'type' => 'datetime', 'label' => 'Created']);
+        $this->crud->addColumn(['name' => 'updated_at', 'type' => 'datetime', 'label' => 'Updated']);        
     }
 
     protected function setupCreateOperation()
