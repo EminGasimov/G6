@@ -23,7 +23,6 @@
 
 
 
-
 <header class="app-header border-0 navbar navbar-expand-lg navbar-light blue lighten-4">
     <!-- Logo -->
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
