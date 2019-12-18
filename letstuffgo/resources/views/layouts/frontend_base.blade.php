@@ -59,12 +59,12 @@
 				</a>
 				<div class="navbar-inner">
 					<a class="brand" href="/"><img src="{{ asset('static/website/themes/images/logo.png') }}" alt="LetStuffGo"/></a>
-					<form class="form-inline navbar-search" method="post" action="products.html">
+					<form class="form-inline navbar-search" method="get" action="/products">
 						<input id="srchFld" class="srchTxt" placeholder="search" type="text"/>
 						<button type="submit" id="submitButton" class="btn btn-primary">Search</button>
 					</form>
 					<ul id="topMenu" class="nav pull-right">
-						<li class=""><a href="special_offer.html">Home</a></li>
+						<li class=""><a href="/">Home</a></li>
 						<li class=""><a href="/contact">Contact</a></li>
 						<li class=""><a href="/about">About us</a></li>
 						<li class="">
