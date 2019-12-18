@@ -80,7 +80,7 @@
 							<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-									<h3>Registered members can Login</h3>
+									<h3 style="text-align: center;">Login</h3>
 								</div>
 								<div class="modal-body">
 									<form class="form-horizontal loginFrm">
