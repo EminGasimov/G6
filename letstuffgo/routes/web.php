@@ -1,6 +1,10 @@
 <?php
 
 Route::get('/', function () {
-    return view('home');
+    return view('frontend.home');
+});
+
+Route::get('/register', function () {
+    return view('frontend.register');
 });
 
