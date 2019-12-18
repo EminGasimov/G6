@@ -41,6 +41,10 @@ body {
 	width: 70%;
 	padding: 13px 45px;
 	font-family: Courier new !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
  .loginFrm input {
@@ -50,6 +54,53 @@ body {
 	font-size: 12px;
 	padding: 5px 25px;
 	font-family: Courier new !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.contact {
+	padding: 35px 0px;
+}
+
+.contact-form input, textarea {
+	background: #f5f5f5 none repeat scroll 0 0;
+	border: 0 none;
+	color: #333;
+	font-size: 18px;
+	height: 100%;
+	width: 70%;
+	padding: 13px 45px;
+	font-family: Courier new !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.contact-form button {
+	border: 0 none;
+	font-size: 18px;
+	padding: 13px 18px;
+	font-family: Courier new !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#srchFld {
+	background: #f5f5f5 none repeat scroll 0 0;
+	border: 0 none;
+	color: #666666;
+	font-size: 12px;
+	padding: 5px 25px;
+	font-family: Courier new !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 /* body--- */

@@ -61,20 +61,12 @@
 					<a class="brand" href="/"><img src="{{ asset('static/website/themes/images/logo.png') }}" alt="LetStuffGo"/></a>
 					<form class="form-inline navbar-search" method="post" action="products.html">
 						<input id="srchFld" class="srchTxt" placeholder="search" type="text"/>
-						<!-- <select class="srchTxt">
-							<option>All</option>
-							<option>CLOTHES </option>
-							<option>FOOD AND BEVERAGES </option>
-							<option>HEALTH & BEAUTY </option>
-							<option>SPORTS & LEISURE </option>
-							<option>BOOKS & ENTERTAINMENTS </option>
-						</select>  -->
 						<button type="submit" id="submitButton" class="btn btn-primary">Search</button>
 					</form>
 					<ul id="topMenu" class="nav pull-right">
 						<li class=""><a href="special_offer.html">Home</a></li>
-						<li class=""><a href="normal.html">Contact</a></li>
-						<li class=""><a href="contact.html">About us</a></li>
+						<li class=""><a href="/contact">Contact</a></li>
+						<li class=""><a href="/about">About us</a></li>
 						<li class="">
 							<a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 							<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false">
