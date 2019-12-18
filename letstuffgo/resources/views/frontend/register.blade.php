@@ -1,10 +1,13 @@
 @extends('layouts.frontend_base')
 
 @section('content')
+<div id="divImg">
+	<img src="{{ asset('static/website/themes/images/fulda2.jpg') }}" alt="" class="img img-responsive">
+</div>
 <div id="mainBody">
 		<div class="container">
 			<div class="row">
-				<!-- ****** Sidebar ****** -->
+				{{-- <!-- ****** Sidebar ****** -->
 				<div id="sidebar" class="span3">
 					<ul id="sideManu" class="nav nav-tabs nav-stacked">
 						<li class="subMenu open"><a> ELECTRONICS [230]</a>
@@ -112,7 +115,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- ******* Sidebar end ******* -->
+				<!-- ******* Sidebar end ******* --> --}}
 				<div class="span9">
 					<ul class="breadcrumb">
 						<li><a href="index.html">Home</a> <span class="divider">/</span></li>

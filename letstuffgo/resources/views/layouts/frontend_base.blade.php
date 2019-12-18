@@ -13,9 +13,9 @@
 	<link rel="stylesheet/less" type="text/css" href="themes/less/classified.less">
 	<link rel="stylesheet/less" type="text/css" href="themes/less/amelia.less">  MOVE DOWN TO activate
 	-->
-	<!--<link rel="stylesheet/less" type="text/css" href="themes/less/bootshop.less">
-	<script src="{{ asset('static/website/themes/js/less.js" type="text/javascript') }}"></script> -->
-	
+	<!--<link rel="stylesheet/less" type="text/css" href="themes/less/bootshop.less">-->
+
+	<script src="{{ asset('static/website/themes/js/less.js" type="text/javascript') }}"></script> 	
 	<!-- Bootstrap style --> 
     <link id="callCss" rel="stylesheet" href="{{ asset('static/website/themes/bootshop/bootstrap.min.css') }}" media="screen"/>
     <link href="{{ asset('static/website/themes/css/base.css') }}" rel="stylesheet" media="screen"/>
@@ -46,12 +46,6 @@
 				<div class="span6">Welcome to <strong> LetStuffGo</strong></div>
 				<div class="span6">
 					<div class="pull-right">
-						<!-- <a href="product_summary.html"><span class="">Fr</span></a>
-						<a href="product_summary.html"><span class="">Es</span></a>
-						<span class="btn btn-mini">En</span>
-						<a href="product_summary.html"><span>&pound;</span></a>
-						<span class="btn btn-mini">$155.00</span>
-						<a href="product_summary.html"><span class="">$</span></a> -->
 						<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Items in your cart </span> </a> 
 					</div>
 				</div>
@@ -123,41 +117,18 @@
 	<div  id="footerSection">
 		<div class="container">
 			<div class="row">
-				<div class="span4">
-					<h5>ACCOUNT</h5>
-					<a href="login.html">YOUR ACCOUNT</a>
-					<a href="login.html">PERSONAL INFORMATION</a> 
-					<a href="login.html">ADDRESSES</a> 
-					<!-- <a href="login.html">DISCOUNT</a>  
-					<a href="login.html">ORDER HISTORY</a> -->
+				<div class="span6 pull-left">
+					<p class="">&copy; Copyright reserved by <b>GDSD-G6</b>, 2019</p>
 				</div>
-				<div class="span4">
-					<h5>INFORMATION</h5>
-					<a href="contact.html">CONTACT</a>  
-					<!-- <a href="register.html">REGISTRATION</a>  
-					<a href="legal_notice.html">LEGAL NOTICE</a>   -->
-					<a href="tac.html">TERMS AND CONDITIONS</a> 
-					<a href="faq.html">FAQ</a>
-				</div>
-				<!-- <div class="span3">
-					<h5>OUR OFFERS</h5>
-					<a href="#">NEW PRODUCTS</a> 
-					<a href="#">TOP SELLERS</a>  
-					<a href="special_offer.html">SPECIAL OFFERS</a>  
-					<a href="#">MANUFACTURERS</a> 
-					<a href="#">SUPPLIERS</a> 
-				</div> -->
-				<div id="socialMedia" class="span4 pull-right">
-					<h5>SOCIAL MEDIA </h5>
-					<a href="www.facebook.com"><i class="fa fa-facebook" style="font-size:35px; color:#4267B2;"></i></a>
-					<a href="www.youtube.com"><i class="fa fa-youtube" style="font-size:35px; color:#FF0000;"></i></a>
-					<!-- <a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-					<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-					<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a> -->
+				<div id="socialMedia" class="span6 pull-right">
+					{{-- <h5>SOCIAL MEDIA </h5> --}}<span>Follow us: </span>
+					<a href="www.facebook.com"><i class="fa fa-facebook" style="font-size:30px; color:#4267B2;"></i></a>
+					<a href="www.youtube.com"><i class="fa fa-youtube" style="font-size:30px; color:#FF0000;"></i></a>
 				</div> 
+
 			</div>
 			<br>
-			<p class="pull-right">&copy; Copyright reserved by <b>GDSD-G6</b>, 2019</p>
+			
 		</div>
 		<!-- ****** Container End ****** -->
 	</div>
