@@ -52,7 +52,7 @@
 								</div>
 							</div>
 							
-							<div class="btn-toolbar">
+							{{-- <div class="btn-toolbar">
 								<div class="btn-group">
 									<span class="btn"><i class="icon-envelope"></i></span>
 									<span class="btn" ><i class="icon-print"></i></span>
@@ -61,7 +61,7 @@
 									<span class="btn" ><i class=" icon-thumbs-up"></i></span>
 									<span class="btn" ><i class="icon-thumbs-down"></i></span>
 								</div>
-							</div>
+							</div> --}}
 						</div>
 						<div class="span6">
 							<h3>Fujifilm FinePix S2950 Digital Camera  </h3>
@@ -79,7 +79,7 @@
 							
 							<hr class="soft"/>
 							<h4>100 items in stock</h4>
-							<form class="form-horizontal qtyFrm pull-right">
+							{{-- <form class="form-horizontal qtyFrm pull-right">
 								<div class="control-group">
 									<label class="control-label"><span>Color</span></label>
 									<div class="controls">
@@ -91,7 +91,7 @@
 										</select>
 									</div>
 								</div>
-							</form>
+							</form> --}}
 							<hr class="soft clr"/>
 							<p>
 								14 Megapixels. 18.0 x Optical Zoom. 3.0-inch LCD Screen. Full HD photos and 1280 x 720p HD movie capture. ISO sensitivity ISO6400 at reduced resolution.
@@ -100,6 +100,7 @@
 								
 							</p>
 						</div>
+						<hr class="soft clr"/>
 					</div>
 				</div>
 			</div>
