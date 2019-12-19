@@ -19,3 +19,7 @@ Route::get('/about', function () {
 Route::get('/products', function () {
     return view('frontend.products');
 });
+
+Route::get('/product-details', function () {
+    return view('frontend.product-details');
+});
