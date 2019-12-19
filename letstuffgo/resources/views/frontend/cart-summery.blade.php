@@ -19,7 +19,7 @@
 						<li><a href="index.html">Home</a> <span class="divider">/</span></li>
 						<li class="active"> SHOPPING CART</li>
 					</ul>
-					<h3>  SHOPPING CART [ <small>3 Item(s) </small>]<a href="products.html" class="btn btn-large pull-right"><i class="icon-arrow-left"></i> Continue Shopping </a></h3>
+					<h3>  SHOPPING CART<a href="/products" class="btn btn-large pull-right"><i class="icon-arrow-left"></i> Continue Shopping </a></h3>
 					<hr class="soft"/>
 					<table class="table table-bordered">
 						<tr><th> I AM ALREADY REGISTERED  </th></tr>
@@ -70,33 +70,33 @@
 								<td> <img width="60" src="{{ asset('static/website/themes/images/products/4.jpg') }}" alt=""/></td>
 								<td>MASSA AST<br/>Color : black, Material : metal</td>
 								<td>
-									<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1" id="appendedInputButtons" size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
+									<div class="input-append">
+										<input class="span1" style="max-width:34px" placeholder="1" id="appendedInputButtons" size="16" type="text">
+									</div>
 								</td>
 								<td>$120.00</td>
-								<td>$25.00</td>
-								<td>$15.00</td>
 								<td>$110.00</td>
 							</tr>
 							<tr>
 								<td> <img width="60" src="{{ asset('static/website/themes/images/products/8.jpg') }}" alt=""/></td>
 								<td>MASSA AST<br/>Color : black, Material : metal</td>
 								<td>
-									<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
+									<div class="input-append">
+										<input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text">
+									</div> 	
 								</td>
 								<td>$7.00</td>
-								<td>--</td>
-								<td>$1.00</td>
 								<td>$8.00</td>
 							</tr>
 							<tr>
 								<td> <img width="60" src="{{ asset('static/website/themes/images/products/3.jpg') }}" alt=""/></td>
 								<td>MASSA AST<br/>Color : black, Material : metal</td>
 								<td>
-									<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
+									<div class="input-append">
+										<input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text">
+									</div>
 								</td>
 								<td>$120.00</td>
-								<td>$25.00</td>
-								<td>$15.00</td>
 								<td>$110.00</td>
 							</tr>
 							
@@ -118,7 +118,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<button type="btn" class="btn btn-success">Confirm order</button>
+					<button type="btn" class="btn btn-success pull-right">Confirm order</button>
 					
 					
 					{{-- <table class="table table-bordered">
