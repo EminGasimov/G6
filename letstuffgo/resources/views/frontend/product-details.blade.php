@@ -72,7 +72,7 @@
 									<label class="control-label"><span>$222.00</span></label>
 									<div class="controls">
 										<input type="number" class="span1" placeholder="Qty."/>
-										<button type="submit" class="btn btn-large btn-primary pull-right"> Add to cart <i class=" icon-shopping-cart"></i></button>
+										<button type="submit" class="btn btn-large btn-primary pull-right"><a href="/cart-summery">Add to cart </a><i class=" icon-shopping-cart"></i></button>
 									</div>
 								</div>
 							</form>

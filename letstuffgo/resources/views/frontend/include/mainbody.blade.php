@@ -186,7 +186,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>
@@ -199,7 +199,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>
@@ -212,7 +212,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>
@@ -225,7 +225,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>
@@ -238,7 +238,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>
@@ -251,7 +251,7 @@
 					<p>Lorem Ipsum is simply dummy text. </p>
 					<h4 style="text-align:center">
 						<a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> 
-						<a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
+						<a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a>
 					</h4>
 				</div>
 			</div>

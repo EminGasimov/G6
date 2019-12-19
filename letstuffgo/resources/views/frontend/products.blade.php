@@ -31,7 +31,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
@@ -43,7 +43,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
@@ -55,7 +55,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
@@ -67,7 +67,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
@@ -79,7 +79,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
@@ -91,7 +91,7 @@
 										<p>
 											I'm a paragraph. Click here
 										</p>
-										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+										<h4 style="text-align:center"><a class="btn" href="/product-details"> <i class="icon-zoom-in"></i></a> <a class="btn" href="/cart-summery">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 									</div>
 								</div>
 							</li>
