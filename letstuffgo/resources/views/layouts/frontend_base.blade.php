@@ -46,7 +46,7 @@
 				<div class="span6">Welcome to <strong> LetStuffGo</strong></div>
 				<div class="span6">
 					<div class="pull-right">
-						<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Items in your cart </span> </a> 
+						<a href="product_summary.html"><span class="btn btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 0 ] Cart </span> </a> 
 					</div>
 				</div>
 			</div>
