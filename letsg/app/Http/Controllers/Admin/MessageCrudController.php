@@ -34,6 +34,8 @@ class MessageCrudController extends CrudController
         $this->crud->addColumn(['name' => 'location', 'type' => 'text', 'label' => 'Location']);
         $this->crud->addColumn(['name' => 'created_at', 'type' => 'text', 'label' => 'Created Om']);
         $this->crud->addColumn(['name' => 'updated_at', 'type' => 'text', 'label' => 'Updated On']);
+
+        $this->crud->addClause('where', 'recepient_id', '=', ''.backpack_user()->id);
     }
 
     protected function setupCreateOperation()

@@ -32,6 +32,8 @@ class WishlistCrudController extends CrudController
         $this->crud->addColumn(['name' => 'product.name', 'type' => 'text', 'label' => 'Product']);
         $this->crud->addColumn(['name' => 'created_at', 'type' => 'text', 'label' => 'Created Om']);
         $this->crud->addColumn(['name' => 'updated_at', 'type' => 'text', 'label' => 'Updated On']);
+
+        $this->crud->addClause('where', 'user_id', '=', ''.backpack_user()->id);
     }
 
     protected function setupCreateOperation()
