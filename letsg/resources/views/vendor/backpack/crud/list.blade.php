@@ -1,28 +1,21 @@
 @extends(backpack_view('layouts.top_left'))
 
-@section('header')
-  <div class="container-fluid">
-    <h2>
-      <span class="text-capitalize">LetStuffGo</span>
-      <small id="datatable_info_stack">A Buy and Sell Application for Hochschule Fulda by G6 Group of GDSD course 2019/20</small>
-    </h2>
-  </div>
-@endsection
+@php
+  $defaultBreadcrumbs = [
+    trans('backpack::crud.admin') => url(config('backpack.base.route_prefix'), 'dashboard'),
+    $crud->entity_name_plural => url($crud->route),
+    trans('backpack::crud.list') => false,
+  ];
 
-@section('content')
-    <div class="jumbotron mb-2">
-
-        <h1 class="display-3">Welcome to LetStuffGo!</h1>
-
-    </div>
-
-@endsection
+  // if breadcrumbs aren't defined in the CrudController, use the default breadcrumbs
+  $breadcrumbs = $breadcrumbs ?? $defaultBreadcrumbs;
+@endphp
 
 @section('header')
   <div class="container-fluid">
     <h2>
-      <span class="text-capitalize">Products</span>
-      <small id="datatable_info_stack"><div class="dataTables_info" id="crudTable_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div></small>
+      <span class="text-capitalize">{!! $crud->getHeading() ?? $crud->entity_name_plural !!}</span>
+      <small id="datatable_info_stack">{!! $crud->getSubheading() ?? '' !!}</small>
     </h2>
   </div>
 @endsection
@@ -32,16 +25,20 @@
   <div class="row">
 
     <!-- THE ACTUAL CONTENT -->
-    <div class="col-md-12">
+    <div class="{{ $crud->getListContentClass() }}">
       <div class="">
 
         <div class="row mb-0">
           <div class="col-6">
-            <div class="hidden-print with-border">
-              <a href="{{ backpack_url() }}/product/create" class="btn btn-primary" data-style="zoom-in"><span class="ladda-label"><i class="fa fa-plus"></i> Add product</span></a>
+            @hasrole('Moderator')
+            @if ( $crud->buttons()->where('stack', 'top')->count() ||  $crud->exportButtons())
+            <div class="hidden-print {{ $crud->hasAccess('create')?'with-border':'' }}">
+
+              @include('crud::inc.button_stack', ['stack' => 'top'])
 
             </div>
-            
+            @endif
+            @endhasrole
           </div>
           <div class="col-6">
               <div id="datatable_search_stack" class="float-right"></div>
@@ -106,9 +103,11 @@
                     {!! $column['label'] !!}
                   </th>
                 @endforeach
-
+                
                 @if ( $crud->buttons()->where('stack', 'line')->count() )
+                
                   <th data-orderable="false" data-priority="{{ $crud->getActionsColumnPriority() }}" data-visible-in-export="false">{{ trans('backpack::crud.actions') }}</th>
+                
                 @endif
               </tr>
             </thead>
@@ -124,6 +123,7 @@
                 @if ( $crud->buttons()->where('stack', 'line')->count() )
                   <th>{{ trans('backpack::crud.actions') }}</th>
                 @endif
+
               </tr>
             </tfoot>
           </table>
