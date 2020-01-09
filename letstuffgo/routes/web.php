@@ -27,3 +27,19 @@ Route::get('/product-details', function () {
 Route::get('/cart-summery', function () {
     return view('frontend.cart-summery');
 });
+
+Route::get('/profile', function () {
+    return view('frontend.profile');
+});
+
+Route::get('/basket', function () {
+    return view('frontend.include.profile.basket');
+});
+
+Route::get('/my-order', function () {
+    return view('frontend.include.profile.my-order');
+});
+
+Route::get('/change-pass', function () {
+    return view('frontend.include.profile.change-pass');
+});
