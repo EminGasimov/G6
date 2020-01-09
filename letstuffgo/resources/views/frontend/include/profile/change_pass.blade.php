@@ -20,7 +20,7 @@
                         </div><!-- /.widget -->
                         <br>
                         <div class="widget">
-                            @include('frontend.include.profile.pro-sidebar')
+                            @include('frontend.include.profile.pro_sidebar')
                         </div><!-- /.widget -->
                     </div><!-- /.sidebar -->
                 </div><!-- /.col-* -->

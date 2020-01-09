@@ -28,17 +28,17 @@
                 <div class="span9">
                     <div class="content">
                         <div class="page-title">
-                            <h3>Basket</h3>
+                            <h3>My Orders</h3>
                         </div>
                         <hr>
                         <div class="table-content table-responsive">
                             <table class="table table-hover table-bordered">
                                 <thead class="thead-dark">
                                     <tr>
+                                        <th class="si">SI No</th>
                                         <th class="product-name">Name</th>
                                         <th class="product-quantity">Quantity</th>
                                         <th class="product-price">Price</th>
-                                        <th class="product-action">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>

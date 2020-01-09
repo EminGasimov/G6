@@ -36,10 +36,14 @@ Route::get('/basket', function () {
     return view('frontend.include.profile.basket');
 });
 
-Route::get('/my-order', function () {
-    return view('frontend.include.profile.my-order');
+Route::get('/my_order', function () {
+    return view('frontend.include.profile.my_order');
 });
 
-Route::get('/change-pass', function () {
-    return view('frontend.include.profile.change-pass');
+Route::get('/change_pass', function () {
+    return view('frontend.include.profile.change_pass');
+});
+
+Route::get('/edit_profile', function () {
+    return view('frontend.include.profile.edit_profile');
 });

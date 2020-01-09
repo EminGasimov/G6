@@ -20,7 +20,7 @@
                         </div><!-- /.widget -->
                         <br>
                         <div class="widget">
-                            @include('frontend.include.profile.pro-sidebar')
+                            @include('frontend.include.profile.pro_sidebar')
                         </div><!-- /.widget -->
                     </div><!-- /.sidebar -->
                 </div><!-- /.col-* -->
@@ -29,7 +29,7 @@
                     <div class="content">
                         <div class="page-title">
                             <h2>Profile
-                                <a class="btn btn-primary btn-xs pull-right" href="#">Edit Profile</a>
+                                <a class="btn btn-primary btn-xs pull-right" href="/edit_profile">Edit Profile</a>
                             </h2>
                         </div><!-- /.page-title -->
                         <hr>
