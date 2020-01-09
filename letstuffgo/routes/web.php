@@ -47,3 +47,7 @@ Route::get('/change_pass', function () {
 Route::get('/edit_profile', function () {
     return view('frontend.include.profile.edit_profile');
 });
+
+Route::get('/logout', function () {
+    return view('frontend.include.profile.logout');
+});

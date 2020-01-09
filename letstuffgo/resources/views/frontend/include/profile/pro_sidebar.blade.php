@@ -9,5 +9,5 @@
 	<!-- <li><a href="message.php"><i class="fa fa-envelope"></i> Message</a></li> -->
 	<!-- <li><a href="my_notifications.php"><i class="fa fa-bell"></i> Notifications</a></li> -->
 	<li><a href="/change_pass"><i class="fa fa-key"></i> Change Password</a></li>
-	<li><a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a></li>
+	<li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
 </ul>

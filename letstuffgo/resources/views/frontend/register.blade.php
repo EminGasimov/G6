@@ -88,6 +88,8 @@
 									</div>
 								</div>
 							</form>
+							<br><br><br><br><br><br>
+							<button type="submit" class="btn btn-success pull-right rg-btn">Sign Up</button>
 						</div>
 					</div>
 				</div>
