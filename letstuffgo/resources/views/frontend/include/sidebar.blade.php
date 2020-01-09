@@ -5,48 +5,30 @@
 		<li class="subMenu open"><a> ELECTRONICS </a>
 			<ul>
 				<li>
-					<a class="active" href="products.html"><i class="icon-chevron-right"></i>Cameras </a>
+					<a href="/computer"><i class="icon-chevron-right"></i>Computers, Tablets & laptop </a>
 				</li>
 				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop </a>
-				</li>
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Mobile Phone </a>
-				</li>
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Sound & Vision </a>
+					<a href="/gadgets"><i class="icon-chevron-right"></i>Mobile & Gadgets</a>
 				</li>
 			</ul>
 		</li>
-		<li class="subMenu"><a> CLOTHES </a>
+		<li class="subMenu"><a> CLOTHING & ACCESSORIES </a>
 			<ul style="display:none">
 				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Women's Clothing </a>
-				</li>
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Women's Shoes </a>
-				</li>												
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Women's Hand Bags </a>
+					<a href="/women_products"><i class="icon-chevron-right"></i>Women's Clothing & Access. </a>
 				</li>	
 				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Men's Clothings </a>
-				</li>
+					<a href="/men_products"><i class="icon-chevron-right"></i>Men's Clothings & Access.</a>
+				</li>											
 				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Men's Shoes </a>
-				</li>												
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Kids Clothing </a>
-				</li>												
-				<li>
-					<a href="products.html"><i class="icon-chevron-right"></i>Kids Shoes </a>
+					<a href="/kids_products"><i class="icon-chevron-right"></i>Kids Clothing & Access.</a>
 				</li>												
 			</ul>
 		</li>
-		<li><a href="products.html">FOOD AND BEVERAGES </a></li>
-		<li><a href="products.html">HEALTH & BEAUTY </a></li>
-		<li><a href="products.html">SPORTS & LEISURE </a></li>
-		<li><a href="products.html">BOOKS & ENTERTAINMENTS </a></li>
+		<li><a href="/food_beverage">FOOD AND BEVERAGES </a></li>
+		<li><a href="/health_beauty">HEALTH & BEAUTY </a></li>
+		<li><a href="/sports_leisure">SPORTS & LEISURE </a></li>
+		<li><a href="/book_entertainment">BOOKS & ENTERTAINMENTS </a></li>
 	</ul>
 	<br/>
 </div>

@@ -51,3 +51,39 @@ Route::get('/edit_profile', function () {
 Route::get('/logout', function () {
     return view('frontend.include.profile.logout');
 });
+
+Route::get('/computer', function () {
+    return view('frontend.include.category.computer');
+});
+
+Route::get('/gadgets', function () {
+    return view('frontend.include.category.gadgets');
+});
+
+Route::get('/women_products', function () {
+    return view('frontend.include.category.women_products');
+});
+
+Route::get('/men_products', function () {
+    return view('frontend.include.category.men_products');
+});
+
+Route::get('/kids_products', function () {
+    return view('frontend.include.category.kids_products');
+});
+
+Route::get('/food_beverage', function () {
+    return view('frontend.include.category.food_beverage');
+});
+
+Route::get('/health_beauty', function () {
+    return view('frontend.include.category.health_beauty');
+});
+
+Route::get('/sports_leisure', function () {
+    return view('frontend.include.category.sports_leisure');
+});
+
+Route::get('/book_entertainment', function () {
+    return view('frontend.include.category.book_entertainment');
+});
